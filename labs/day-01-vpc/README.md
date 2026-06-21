@@ -13,7 +13,6 @@
 
 ## Architecture diagram
 Internet
-
 ↓
 Internet Gateway
 ↓
