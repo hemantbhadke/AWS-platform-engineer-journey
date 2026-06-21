@@ -2,7 +2,7 @@
 
 **Date:** 21 June 2026  
 **Region:** ap-south-1 (Mumbai)  
-**Status:** ✅ Complete  
+**Status:** Complete  
 **Score:** 89% on quiz
 
 ## What I built
@@ -80,16 +80,21 @@ If SSH times out check in this order:
 
 ## Public IP vs Elastic IP
 Without Elastic IP
-Stop/Start EC2  →  New IP assigned  →  DNS breaks  →  App down ❌
+
+Stop/Start EC2  →  New IP assigned  →  DNS breaks  →  App down 
+
 With Elastic IP
-Stop/Start EC2  →  Same IP always   →  DNS intact  →  App up  ✅
+
+Stop/Start EC2  →  Same IP always   →  DNS intact  →  App up 
+
 Elastic IP is free when attached to running instance.
+
 Costs ~$3.65/month if allocated but not in use — always release when done.
 
 ## Key pair cryptography
-Public Key  🔓  →  AWS installs on EC2 at launch
+Public Key   →  AWS installs on EC2 at launch
 stored in ~/.ssh/authorized_keys on server
-Private Key 🔑  →  You keep in .pem file on your laptop
+Private Key   →  You keep in .pem file on your laptop
 AWS never stores this — zero knowledge security
 
 If you lose your .pem file — create new key pair, AWS cannot recover it.
@@ -131,8 +136,8 @@ vs public IP distinction is critical for production systems where DNS must
 always resolve correctly.
 
 ## Cost cleanup
-- Instance stopped after lab ✅
-- No Elastic IPs allocated ✅
+- Instance stopped after lab 
+- No Elastic IPs allocated 
 - EBS volume preserved with stopped instance (small cost)
 
 ## Screenshot
