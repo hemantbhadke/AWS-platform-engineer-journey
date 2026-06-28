@@ -9,8 +9,9 @@ Hands-on AWS labs built while learning toward a Platform Engineer / DevOps role.
 | Day 1 | Lab 2 | VPC & Core Networking | ✅ Complete | 78% |
 | Day 1 | Lab 3 | EC2 & Web Server Setup | ✅ Complete | 89% |
 | Day 1 | Lab 4 | S3 Static Website Hosting | ✅ Complete | 75% |
-| Day 1 | Lab 5 | Billing & CloudWatch Alarms | ⏳ Up next | — |
-
+| Day 1 | Lab 5 | Billing & CloudWatch Alarms | ✅ Complete | — |
+| Day 1 | Lab 6 | RDS & MySQL Database | ✅ Complete | 84% |
+| Day 2 | Lab 7 | Load Balancer & Auto Scaling | ⏳ Up next | — |
 ## Certification target
 AWS Certified Cloud Practitioner — Week 6
 
